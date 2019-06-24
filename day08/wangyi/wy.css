@@ -1,0 +1,172 @@
+ body{
+     margin: 0;
+     padding: 0;
+     background: white
+ }
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.header {
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header .logo .p1{
+    position: absolute;
+    left: 399px;
+    top: 60px;
+
+}
+.header .logo .p0{
+    position: absolute;
+    left: 220px;
+    top: 53px;
+
+}
+
+
+.header .links {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+.header .links a {
+  text-align: right;
+}
+
+.content {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    background: #F8F8F8;
+    
+
+}
+
+.content .top {
+    width: 960px;
+    height: 38px;
+    background: #3D83BE repeat-x;
+
+}
+
+
+.content .bottom {
+    width: 960px;
+    height: 562px;
+
+
+}
+
+.content .bottom .article {
+    width: 642px;
+    height: 562px;
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    border: 1px solid #f9f9f9;
+    border-top: none;
+    margin: 0 auto;
+}
+
+
+
+
+
+.content .bottom .article .articleBottom .line {
+    width: 413px;
+    height: 28px;
+
+}
+
+.content .bottom .article .articleBottom .line .star {
+    color:#69A3D3;
+     width: 0;
+}
+
+.content .bottom .article .articleBottom .line span {
+    float: left;
+    height: 28px;
+    width: 60px;
+    font-size: 1px;
+    line-height: 28px;
+    text-align: right;
+
+}
+
+.content .bottom .article .articleBottom .line div {
+    float: right;
+    height: 28px;
+    width: 333px;
+
+}
+
+.content .bottom .article .articleBottom .line input {
+    width: 214px;
+    height: 24px;
+}
+
+.content .bottom .article .articleBottom .line .special {
+    width: 325px;
+}
+
+.content .bottom .article .articleBottom .line select {
+    width: 95px;
+    height: 28px;
+}
+
+.content .bottom .article .articleBottom .line img {
+    width: 100px;
+    height: 28px;
+    float: left;
+}
+
+.content .bottom .article .articleBottom .line .codeInput {
+    margin-right: 10px;
+    float: left;
+}
+
+.content .bottom .article .articleBottom p {
+    font-size: 1px;
+    margin-left: 80px;
+    line-height: 28px;
+}
+
+
+.content .bottom .article .articleBottom input[type=submit] {
+    width: 119px;
+    height: 37px;
+    border: none;
+    font-size: 10px;
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.jj{
+    position: absolute;
+    top: 600px;
+    left:650px;
+}
+    
+
+.footer {
+    width: 960px;
+    height: 48px;
+    margin: 0 auto;
+    line-height: 48px;
+}
+
+.footer p {
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+
+}
