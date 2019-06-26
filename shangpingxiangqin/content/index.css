@@ -1,0 +1,414 @@
+.header {
+    height: 242px;
+    border: 1px solid red;
+
+}
+
+/* 头部灰色左浮 */
+.hh-dv {
+    background: #e3e4e5;
+    color: #999;
+}
+
+.hh-f1 {
+    float: left;
+}
+
+.hh-dv .hh-f1 li {
+    display: inline;
+    margin: 0px auto;
+    line-height: 40px;
+}
+
+.hh-dv li>img {
+    vertical-align: -5px;
+}
+
+.hh-dv .hh-f1 li>a {
+    color: rgb(134, 133, 138);
+}
+
+.hh-dv .hh-f1 li>a:hover {
+    color: red;
+}
+
+/* 头部灰色右浮 */
+.hh-f2 {
+    float: right;
+}
+
+.hh-dv .hh-f2 li {
+    display: inline;
+    margin: 0px auto;
+    line-height: 40px;
+    padding: 0px 1px;
+    margin-left: 3px;
+}
+
+.hh-dv .hh-f2 li>a {
+    color: rgb(134, 133, 138);
+}
+
+.hhf-d {
+    color: red;
+}
+
+.hh-dv .hh-f2 li>a:hover {
+    color: red;
+}
+
+
+.hh-f2 .hh-line {
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+    background: #ccc;
+    overflow: hidden;
+}
+
+/* 手机京东下拉框 */
+
+
+
+/* 头部设置  */
+.h-header {
+    height: 35px;
+    background: #E3E4E5;
+}
+
+.h-header .hh-dv {
+    width: 1345px;
+    height: 35px;
+    border: 1px solid red;
+    margin: 0px auto;
+}
+
+/* 头部中间 */
+.hm-dv {
+    width: 1345px;
+    height: 95px;
+    border: 1px solid red;
+    margin: 0px auto;
+
+}
+
+.hmd1-l {
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+    width: 75px;
+    height: 27px;
+    margin-left: 50px;
+}
+
+.hmd-dv1 {
+    position: relative;
+    top: 0px;
+    left: -135px;
+    float: left;
+    width: 362px;
+    height: 55px;
+    padding: 20px 0;
+    border: 1px solid red;
+}
+
+.hmd-dv1 li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 头部中间输入框 */
+.hmd-dv2 {
+    margin: 0px auto;
+}
+
+.hmd2-t {
+    float: left;
+    width: 370px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    padding: 4px;
+    margin-top: 27px;
+    margin-bottom: 4px;
+    border-width: 2px 0 2px 2px;
+    border-color: #B61D1D;
+    border-style: solid;
+    outline: 0;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+}
+
+/* 搜全站编辑 */
+.hmd-dv2 .button {
+    width: auto;
+    padding: 0 8px;
+    font: 12px simsun;
+    overflow: visible;
+
+}
+
+.hmd2-b {
+    position: relative;
+    top: 27px;
+    float: left;
+    width: 52px;
+    height: 36px;
+    background: #B61D1D;
+    border: none;
+    line-height: 2;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hmd2-b2 {
+    position: relative;
+    top: 27px;
+    float: left;
+    width: 52px;
+    height: 36px;
+    background: #474E5C;
+    border: none;
+    line-height: 2;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 我的购物车 */
+.hmd-dv3 {
+    float: right;
+    width: 75px;
+    height: 35px;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 0 28px 0 36px;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    top: 8px;
+    left: -135px;
+
+}
+
+.hmd-dv3 li {
+    float: left;
+
+}
+
+.hmd3-d1 {
+    position: absolute;
+    top: 2px;
+    left: 7px;
+}
+
+.hmd3-d3 {
+    position: absolute;
+    top: 0px;
+    left: 119px;
+}
+
+.hmd3-d4 {
+    position: absolute;
+    top: -5px;
+    left: 101px;
+}
+
+.hmd3-d2 a {
+    color: #666;
+}
+
+.hmd3-d2 a:hover {
+    color: red;
+}
+
+/* 搜索框下方 */
+.hmd-dv4 {
+
+    margin: 0px auto;
+    width: 370px;
+    height: 24px;
+
+}
+
+.hmd-dv4 a {
+    color: #666;
+    font-size: 10px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+.hmd-dv4 a:hover {
+    color: red;
+}
+
+/* 头部尾巴 */
+.h-foot {
+    margin: 0px auto;
+}
+
+.hf-d1 {
+    width: 1190px;
+    height: 110px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+.hf-d1 img {
+    margin: 0px auto;
+    vertical-align: middle;
+
+
+}
+
+/* 身体部分 */
+/* 黑线块代码 */
+.m-line {
+    height: 42px;
+    background: #333333;
+    text-align: center;
+
+}
+
+.m-line .ml-dv {
+    display: inline-block;
+    margin: auto;
+
+}
+
+.ml-dv1 {
+    width: 181px;
+    height: 42px;
+}
+
+.ml1-mg1 {
+    position: relative;
+    top: -32px;
+    left: 70px;
+}
+
+.ml1-dv3 {
+    height: 42px;
+    line-height: 40px;
+    padding: 0px 8px;
+}
+
+.m-line .ml-dv .ml-dv1>a {
+    display: block;
+    color: white;
+    font-size: 16px;
+}
+
+.m-line .ml-dv1 {
+    background: #D11E35;
+}
+
+.ml-dv1 {
+    float: left;
+
+}
+
+
+.mld2-dv1 {
+    float: left;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid red;
+    padding: 0 10.5px 0;
+
+}
+
+.ml-dv2 {
+    width: 1100px;
+    border: 1px solid red;
+}
+
+.mld2-dv1>a {
+    color: white;
+    text-decoration: none;
+}
+
+.mld2-dv1:hover {
+    background: #D11E35;
+
+}
+
+/* 灰线块代码 */
+.ml2-dv {
+    height: 45px;
+    background: #F2F2F2;
+    border: 1px solid red;
+}
+
+.ml2d-dv {
+    height: 45px;
+    width: 1230px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+.ml2-dv .ml2d-dv1 {
+    float: left;
+
+}
+
+.ml2d-dv1 li {
+    display: inline-block;
+}
+
+.ml2d-dv1 li>a {
+    display: block;
+    color: rgb(109, 108, 108);
+    font-size: 14px;
+    text-decoration: none;
+    height: 45px;
+    line-height: 40px;
+    padding: 0px 8px;
+}
+
+.ml2d-dv1 li>a:hover {
+    color: red;
+}
+
+.ml2d-dv2 {
+    float: right;
+
+}
+
+.ml2d-dv2 li {
+    display: inline-block;
+
+}
+
+.ml2d-dv2 li>a {
+    display: block;
+    color: rgb(109, 108, 108);
+    font-size: 14px;
+    text-decoration: none;
+    height: 45px;
+    line-height: 48px;
+    padding: 0px 5px;
+}
+
+.ml2d-dv2 li>img {
+    vertical-align: -3px;
+
+}
+
+
+.ml2d-dv2 li>a:hover {
+    color: red;
+}
+
+/* 身体主题--手机信息部分 */
+.ml3-dv {
+    width: 1250px;
+    height: 830px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
