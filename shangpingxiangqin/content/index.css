@@ -406,9 +406,248 @@
 }
 
 /* 身体主题--手机信息部分 */
-.ml3-dv {
-    width: 1250px;
+.m-main .mm-dv1 {
+    width: 1225px;
     height: 830px;
     margin: 0px auto;
     border: 1px solid red;
+
+
+}
+
+.mm-dv1>div {
+    float: left;
+}
+
+.mmd-dv1 {
+    width: 455px;
+    height: 570px;
+    border: 1px solid red;
+    margin-top: 14px;
+}
+
+.mmd-dv2 {
+    margin-top: 14px;
+    margin-left: 21px;
+    width: 740px;
+    height: 810px;
+    text-align: left;
+    border: 1px solid red;
+}
+
+/* 手机放大镜 */
+.mmd1-dv1 {
+    width: 450px;
+    height: 450px;
+    border: red;
+    border: 1px solid rgb(190, 190, 190);
+    margin: 0px auto;
+    position: relative;
+}
+
+.mmd1-dv1 i {
+    width: 31px;
+    height: 31px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: url("./images/17ss.png") no-repeat;
+}
+
+/* 放大镜列表元素 */
+.mmd1-dv2 {
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.mmd12-d1 {
+    float: left;
+    width: 22px;
+    height: 31px;
+    margin-top: 13px;
+    background: url("./images/18you.png") 101px -54px;
+}
+
+.mmd12-d2 {
+    float: right;
+    width: 22px;
+    height: 31px;
+    margin-top: 13px;
+    background: url("./images/18you.png") -78px -85px;
+
+}
+
+.mmd12-d3 li {
+    display: inline-block;
+    margin: 5px;
+    width: 58px;
+    height: 58px;
+
+}
+
+.mmd12-d3 li:hover {
+    border: 2px solid red;
+}
+
+/* 关注分享对比 */
+.mmd1-dv3 {
+    float: left;
+    height: 40px;
+
+}
+
+.mmd1-dv3>a>em {
+    text-decoration: none;
+    color: #666666;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.mmd1-dv3>a>em:hover {
+    color: red;
+
+}
+
+.mmd1-dv3>a>img {
+    vertical-align: -7px;
+}
+
+.mmd1-dv32 {
+    float: right;
+}
+
+.mmd1-dv32 a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 10px;
+
+}
+
+.mmd1-dv32 a:hover {
+    color: red;
+}
+
+/* 价格详情 */
+.mmd2-h1 p {
+    font: 700 16px Arial, "microsoft yahei";
+    color: #666;
+    padding-top: 10px;
+    line-height: 28px;
+    margin: left;
+    border: 1px solid red;
+
+}
+
+.mmd2-h2 {
+
+    margin-top: 5px;
+
+}
+
+.mmd2-h2 p {
+    color: red;
+    font-size: 10px;
+}
+
+.mmd2-h2 a {
+    text-decoration: underline;
+}
+
+.mmd2-h2 a :hover {
+    color: red;
+}
+
+.mmd-h3 {
+    height: 32px;
+    width: 740px;
+    margin-top: 5px;
+    background: url("./images/21-hong.png") no-repeat #e84540;
+    color: white;
+}
+
+.mmdh3-1 {
+    float: left;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.mmdh3-1 .mmdh3-1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(./images/22nz.png) -20px 0px;
+    margin: 2px 4px 2px 8px;
+    vertical-align: -4px;
+
+}
+
+.mmdh3-2 {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "Microsoft YaHei";
+    margin-right: 10px;
+}
+
+.mmdh3-2 span {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    background: #443B3B;
+    color: #FFF;
+    margin-top: 2px;
+    text-align: center;
+    vertical-align: 2px;
+}
+
+.mmd-dv4 {
+    padding: 10px 0px;
+    background: #f3f3f3;
+}
+
+.mmdh4-p1 {
+    position: relative;
+    margin-bottom: 5px;
+    line-height: 22px;
+
+}
+
+.mmd-h4 .mmdh4-p1>div {
+    float: left;
+
+}
+
+.mmdh4p-dv1 {
+    display: inline-block;
+    padding-left: 10px;
+    font-family: simsun;
+    color: #999
+}
+
+.mmdh4p-dv2 {
+    color: #B61D1D;
+    font-size: 18px;
+}
+
+.mmdh4p-dv3 span {
+    color: #999;
+    font-size: 12px;
+}
+
+.mmdh4p-dv4 {
+
+    font-size: 12px;
+}
+
+.mmdh4-p2>div {
+    float: right;
+    text-align: center;
+}
+
+.mmdh4p2-dv {
+    border-left: 1px solid #e6e6e6;
+    padding: 0px 10px;
 }
